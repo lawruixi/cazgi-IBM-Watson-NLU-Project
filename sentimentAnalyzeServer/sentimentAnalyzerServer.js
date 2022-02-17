@@ -121,7 +121,7 @@ app.get("/text/sentiment", (req,res) => {
         "text": textToAnalyze,
         "features": {
             "keywords": {
-                "emotion": true,
+                "sentiment": true,
                 "limit": 1
             }
         }
